@@ -1,12 +1,24 @@
 <html>
   <head>
     <script>
-	document.write("<p>Hello world!</p>");
+	// document.write("<p>Hello world!</p>");
+	function myfunction () {
+		var itext = document.getElementById("textbox1").value;
+		// document.write("You wrote: " + itext);
+		document.getElementById("textbox3").value = itext;
+	}
     </script>
     <style>
-    	p { color: orange; text-align: center; font-size: 64px;}
+    	p { color: orange; text-align: center; font-size: 32px;}
     </style>
   </head>
   <body>
+    <br/>
+    Type rock, paper, or water <br/>
+    <input type="text" name="textbox1" id="textbox1" /> 
+    <input type="submit" name="button" id="button1" onclick="myfunction()" value="Go" />
+    <br/><br/>
+    Your answer is:-- <br/>
+    <input type="text" name="textbox3" id="textbox3" readonly="true"/>
   </body>
 </html>
