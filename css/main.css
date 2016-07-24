@@ -35,7 +35,7 @@ q {}
   body {
     background: #F5F4EF url('../images/bg.png');
     color: #000305;
-    font-size: 24px; /* 87.5%; */ /* Base font size: 14px */
+    font-size: 36px; /* 87.5%; */ /* Base font size: 14px */
     font-family: 'Trebuchet MS', Trebuchet, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     line-height: 1.429;
     margin: 0;
@@ -139,7 +139,7 @@ li:last-child .hentry, #content > .hentry {border: 0; margin: 0;}
     left: 10px;
     position: absolute;
     top: 1.5em;
-    width: 190px;
+    width: 090px;
   }
   #posts-list .hentry:hover {
   background: #C64350;
