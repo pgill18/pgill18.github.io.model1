@@ -2,6 +2,15 @@
   <head>
     <meta name="viewport" content="width=device-width, minimal-ui">
     <script>
+    // track width, set to window width
+var width = $(window).width(); 
+
+// fire on window resize
+$(window).resize(function() {
+    // do nothing if the width is the same
+    if ($(window).width()==width) return; 
+    // ... your code
+});
 	document.write("<p>Hello world!</p>");
     </script>
     <style>
