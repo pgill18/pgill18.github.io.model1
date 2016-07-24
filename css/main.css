@@ -117,7 +117,7 @@ img.left, figure.left {float: right; margin: 0 0 2em 2em;}
 /* Blog */
 .hentry {
   border-bottom: 1px solid #eee;
-  padding: 0.5em 0;
+  padding: 0 0;
 }
 li:last-child .hentry, #content > .hentry {border: 0; margin: 0;}
 #content > .hentry {padding: 1em 0;}
