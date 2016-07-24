@@ -136,7 +136,7 @@ li:last-child .hentry, #content > .hentry {border: 0; margin: 0;}
   #posts-list {list-style: none; margin: 0;}
   #posts-list .hentry {padding-left: 20px; position: relative;}
   #posts-list footer {
-    left: 10px;
+    left: 10px; 
     position: absolute;
     top: 1.5em;
     width: 20px;
