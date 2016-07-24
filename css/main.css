@@ -79,7 +79,7 @@ img.left, figure.left {float: right; margin: 0 0 2em 2em;}
     color: #fff;
     display: inline-block;
     height: 30px;
-    padding: 5px 1.5em;
+    padding: 5px 0.5em;
     text-decoration: none;
   }
   #banner nav a:hover, #banner nav a:active,
