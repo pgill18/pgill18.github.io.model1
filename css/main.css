@@ -41,6 +41,7 @@ q {}
     margin: 0;
     padding: 0;
     text-align: left;
+    -webkit-text-size-adjust: 100%; /* Prevent font scaling in landscape while allowing user zoom */
   }
 
 
