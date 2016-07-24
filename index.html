@@ -2,11 +2,21 @@
   <head>
     <!-- <meta name="viewport" content="width=device-width, minimal-ui"> -->
     <script>
+        // sort of emulate safari's "bounce back to top" scroll
+window.addEventListener('scroll', function(ev) {
+    // avoids scrolling when the focused element is e.g. an input
+    if (
+        !document.activeElement
+        || document.activeElement === document.body
+    ) {
+        document.body.scrollIntoViewIfNeeded(true);
+    }
+});
+
 	document.write("<p>Hello world!</p>");
     </script>
     <style>
     	p { color: orange; text-align: center; font-size: 64px;}
-    	html { padding-bottom: 800px; }
     </style>
   </head>
   <body>
