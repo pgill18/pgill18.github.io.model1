@@ -50,7 +50,7 @@ aside, nav, article, figure {
   display: block;
 }
 /***** Layout *****/
-.body {clear: both; margin: 0 auto; width: 860px;}
+.body {clear: both; margin: 0 auto; width: 900px;}
 img.right figure.right {float: right; margin: 0 0 2em 2em;}
 img.left, figure.left {float: right; margin: 0 0 2em 2em;}
 
