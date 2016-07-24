@@ -50,7 +50,7 @@ aside, nav, article, figure {
   display: block;
 }
 /***** Layout *****/
-.body {clear: both; margin: 0 auto; width: 900px;}
+.body {clear: both; margin: 0 auto; width: 860px;}
 img.right figure.right {float: right; margin: 0 0 2em 2em;}
 img.left, figure.left {float: right; margin: 0 0 2em 2em;}
 
@@ -106,7 +106,7 @@ img.left, figure.left {float: right; margin: 0 0 2em 2em;}
   margin-bottom: 1em;
   overflow: hidden;
   padding: 20px 20px;
-  width: 760px;
+  width: 860px;
  
   border-radius: 10px;
   -moz-border-radius: 10px;
