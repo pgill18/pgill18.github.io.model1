@@ -103,7 +103,7 @@ img.left, figure.left {float: right; margin: 0 0 2em 2em;}
 *****************/
 #content {
   background: #fff;
-  margin-bottom: 2em;
+  margin-bottom: 1em;
   overflow: hidden;
   padding: 20px 20px;
   width: 760px;
