@@ -1,7 +1,35 @@
 
 /***** Global *****/
+/* Headings */
+h2 {font-size: 1.571em} /* 22px */
+h3 {font-size: 1.429em} /* 20px */
+h4 {font-size: 1.286em} /* 18px */
+h5 {font-size: 1.143em} /* 16px */
+h6 {font-size: 1em} /* 14px */
+ 
+h2, h3, h4, h5, h6 {
+  font-weight: 400;
+  line-height: 1.1;
+  margin-bottom: .8em;
+}
+ 
+/* Anchors */
+a {outline: 0;}
+a img {border: 0px; text-decoration: none;}
+a:link, a:visited {
+  color: #C74350;
+  padding: 0 1px;
+  text-decoration: underline;
+}
+a:hover, a:active {
+  background-color: #C74350;
+  color: #fff;
+  text-decoration: none;
+  text-shadow: 1px 1px 1px #333;
+}
+ 
 /* Paragraphs */
-p {margin-bottom: 0.143em;}
+p {margin-bottom: 1.143em;}
 * p:last-child {margin-bottom: 0;}
  
 strong, b {font-weight: bold;}
