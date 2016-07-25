@@ -5,6 +5,7 @@
 <title>Smashing HTML5!</title>
  
 <link rel="stylesheet" href="css/main.css" type="text/css" />
+<link rel="stylesheet" href="css/modal.css" type="text/css" />
 
 <!--
 <meta name="viewport" content="width=568, maximum-scale=1.0">
@@ -50,7 +51,7 @@
       </header>
  
       <div class="entry-content">
-        <p>What is my <a href="#">Intention</a>. And am I paying Attention?
+        <p>What is my <a href="#" id="modal1">Intention</a>. And am I paying Attention?
             <br/>- Opening. 
             <br/>- Begin asanas. 
             <br/>- Closing</p>
@@ -72,6 +73,30 @@
   </ol><!-- /#posts-list -->
  
 </section><!-- /#content -->
+
+<!-- Trigger/Open The Modal -->
+<button id="myBtn">Open Modal</button>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">x</span>
+      <h2>Modal Header</h2>
+    </div>
+    <div class="modal-body">
+      <p>Some text in the Modal Body</p>
+      <p>Some other text...</p>
+    </div>
+    <div class="modal-footer">
+      <h3>Modal Footer</h3>
+    </div>
+  </div>
+
+</div>
+<script src="src/modal.js" type="text/javascript"></script>
 
  
 <header id="banner" class="body">
