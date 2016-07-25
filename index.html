@@ -6,8 +6,6 @@
  
 <link rel="stylesheet" href="css/main.css" type="text/css" />
 <link rel="stylesheet" href="css/modal.css" type="text/css" />
-<link rel="import" href="modal.html">
-<link rel="import" href="progress.html">
 
 <!--
 <meta name="viewport" content="width=568, maximum-scale=1.0">
@@ -91,19 +89,103 @@
 </section><!-- /#content -->
 
 <!-- The Modal -->
-<script>
-    var link = document.querySelector('link[rel="import"]');
-    var elem = link.import.querySelector('.modal');
-    document.body.appendChild(elem.cloneNode(true));
- </script>
-<script src="src/modal.js" type="text/javascript"></script>
+<div id="myModal1" class="modal">
 
-<div id="progress-container"></div>
-<script>
-    var link = document.querySelector('link[rel="import"]');
-    var elem = link.import.querySelector('#interval');
-    //document.body.appendChild(elem.cloneNode(true));
- </script>
+  <!-- Modal content -->
+  <div class="modal-content">
+    <article class="hentry"> 
+    <div class="modal-header">
+      <span class="close">x</span>
+      <a>modal header</a>
+    </div>
+    </article>
+    <article class="hentry"> 
+    <div class="modal-body">
+      <p>Some text in the Modal Body</p>
+      <p>Some other text...</p>
+      <p>Some text in the Modal Body</p>
+      <p>Some other text...</p>
+      <p>Some text in the Modal Body</p>
+      <p>Some other text...</p>
+      <p>Some text in the Modal Body</p>
+      <p>Some other text...</p>
+      <p>Some text in the Modal Body</p>
+      <p>Some other text...</p>
+    </div>
+    </article>
+    <article class="hentry"> 
+    <div class="modal-footer">
+      <h3>modal footer</h3>
+    </div>
+    </article>
+  </div>
+</div>
+
+<!-- The Modal -->
+<div id="myModal2" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <article class="hentry"> 
+    <div class="modal-header">
+      <span class="close">x</span>
+      <a>modal header..</a>
+    </div>
+    </article>
+    <article class="hentry"> 
+    <div class="modal-body">
+      <br>
+      <button class="button button1a">Basic round</button>
+      <button class="button button1b">100%</button><br>
+      <button class="button button2a">Intermediate round</button>
+      <button class="button button2b">75%</button><br>
+      <button class="button button3a">Advanced round</button>
+      <button class="button button3b">40%</button><br>
+      <button class="button button4a">Ultimate round</button>
+      <button class="button button4b">0%</button><br>
+      <p>This is where questions are answered</p>
+      <p>Qestions can start from very simple</p>
+      <p>And can go to contemplative</p>
+      <p>Each round has categories</p>
+    </div>
+    </article>
+    <article class="hentry"> 
+    <div class="modal-footer">
+      <h3>modal footer</h3>
+    </div>
+    </article>
+  </div>
+</div>
+
+<!-- The Modal -->
+<div id="myModal3" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <article class="hentry"> 
+    <div class="modal-header">
+      <span class="close">x</span>
+      <a>modal header..</a>
+    </div>
+    </article>
+    <article class="hentry"> 
+    <div class="modal-body">
+      <br/>
+      <button class="button button1">Flow</button><br>
+      <button class="button button2">Theory</button><br>
+      <button class="button button3">Philosophy</button><br>
+      <button class="button button4">Contents</button><br>
+      <p>Some text in the Modal Body</p>
+      <p>Some other text...</p>
+    </div>
+    </article>
+    <article class="hentry"> 
+    <div class="modal-footer">
+      <h3>modal footer</h3>
+    </div>
+    </article>
+  </div>
+</div>
 
 <header id="banner" class="body">
  
@@ -111,12 +193,13 @@
     <li class="active"><a href="#">< back</a></li>
     <li><a href="#"></a></li>
     <li><a href="#"></a></li>
-    <li><a href="#">[home]</a></li>
+    <li><a href="#" id="modal3">[home]</a></li>
     <li><a href="#"></a></li>
-    <li><a href="#">@now</a></li>
+    <li><a href="#" id="modal2">@now</a></li>
     <!-- <li><a href="#">blog</a></li> -->
   </ul></nav>
- 
+ <script src="src/modal.js" type="text/javascript"></script>
+
 </header><!-- /#banner --> 
 
 </body>
