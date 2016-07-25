@@ -78,17 +78,15 @@ header, section, footer,
 aside, nav, article, figure {
   display: block;
 }
+
 /***** Layout *****/
 .body {clear: both; margin: 0 auto; width: 900px;}
-img.right figure.right {float: right; margin: 0 0 2em 2em;}
-img.left, figure.left {float: right; margin: 0 0 2em 2em;}
-
 
 /* Main Nav */
   #banner nav {
     background: #000305;
     font-size: 1.143em;
-    height: 60px;
+    height: 80px;
     line-height: 30px;
     margin: 0 auto 0.5em auto;
     padding: 0;
@@ -101,7 +99,7 @@ img.left, figure.left {float: right; margin: 0 0 2em 2em;}
   }
   
   #banner nav ul {list-style: none; margin: 0 auto; width: 800px;}
-  #banner nav li {float: left; display: inline; margin: 10px;}
+  #banner nav li {float: left; display: inline; margin: 16px;}
   
   #banner nav a:link, #banner nav a:visited {
     color: #fff;
@@ -156,7 +154,7 @@ li:last-child .hentry, #content > .hentry {border: 0; margin: 0;}
 .hentry .post-info * {font-style: normal;}
  
   /* Content */
-  .hentry footer {margin-bottom: 4em;}
+  .hentry footer {margin-bottom: 1em;}
   .hentry footer address {display: inline;}
   #posts-list footer address {display: block;}
  
