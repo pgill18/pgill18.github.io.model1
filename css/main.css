@@ -10,7 +10,8 @@ h6 {font-size: 1em} /* 14px */
 h2, h3, h4, h5, h6 {
   font-weight: 400;
   line-height: 1.1;
-  margin-bottom: .8em;
+  margin-bottom: 0em;
+  margin-top: 0.5em;
 }
  
 /* Anchors */
@@ -146,7 +147,7 @@ aside, nav, article, figure {
   padding: 0 0;
 }
 li:last-child .hentry, #content > .hentry {border: 0; margin: 0;}
-#content > .hentry {padding: 1em 0;}
+#content > .hentry {padding: 0.5em 0;}
  
 .entry-title {font-size: 1.429em; margin-bottom: 0;}
 .entry-title a:link, .entry-title a:visited {text-decoration: none;}
@@ -154,17 +155,17 @@ li:last-child .hentry, #content > .hentry {border: 0; margin: 0;}
 .hentry .post-info * {font-style: normal;}
  
   /* Content */
-  .hentry footer {margin-bottom: 1em;}
+  .hentry footer {margin-bottom: 0.5em;}
   .hentry footer address {display: inline;}
   #posts-list footer address {display: block;}
  
   /* Blog Index */
   #posts-list {list-style: none; margin: 0;}
-  #posts-list .hentry {padding-left: 20px; position: relative;}
+  #posts-list .hentry {padding-left: 10px; position: relative;}
   #posts-list footer {
     left: 10px; 
     position: absolute;
-    top: 1.5em;
+    top: 0.5em;
     width: 20px;
   }
   #posts-list .hentry:hover {
