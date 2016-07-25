@@ -20,8 +20,9 @@
     margin: auto;
     padding: 0;
     border: 1px solid #888;
-    width: 80%;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    width: 90%;
+    font-family: 'Trebuchet MS', Trebuchet, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
     -webkit-animation-name: animatetop;
     -webkit-animation-duration: 0.4s;
     animation-name: animatetop;
@@ -41,9 +42,9 @@
 
 /* The Close Button */
 .close {
-    color: white;
+    color: grey;
     float: right;
-    font-size: 28px;
+    font-size: 64px;
     font-weight: bold;
 }
 
@@ -55,15 +56,17 @@
 }
 
 .modal-header {
-    padding: 2px 16px;
-    background-color: #5cb85c;
-    color: white;
+    padding: 10px 10px;
+    font-size: 54px;
+    background-color: white;
+    color: black;
 }
 
 .modal-body {padding: 2px 16px;}
 
 .modal-footer {
-    padding: 2px 16px;
-    background-color: #5cb85c;
-    color: white;
+    padding: 10px 10px;
+    font-size: 28px;
+    background-color: white;
+    color: black;
 }
