@@ -63,7 +63,7 @@ q {}
   body {
     background: #F5F4EF url('../images/bg.png');
     color: #000305;
-    font-size: 44px; /* 87.5%; */ /* Base font size: 14px */
+    font-size: 36px; /* 87.5%; */ /* Base font size: 14px */
     font-family: 'Trebuchet MS', Trebuchet, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     line-height: 1.429;
     margin: 0;
@@ -135,7 +135,7 @@ img.left, figure.left {float: right; margin: 0 0 2em 2em;}
   margin-bottom: 1em;
   overflow: hidden;
   padding: 20px 20px;
-  width: 900px;
+  width: 860px;
  
   border-radius: 10px;
   -moz-border-radius: 10px;
