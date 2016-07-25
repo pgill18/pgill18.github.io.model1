@@ -90,7 +90,7 @@ img.left, figure.left {float: right; margin: 0 0 2em 2em;}
     font-size: 1.143em;
     height: 40px;
     line-height: 30px;
-    margin: 0 auto 2em auto;
+    margin: 0 auto 1em auto;
     padding: 0;
     text-align: center;
     width: 100%;
@@ -107,7 +107,7 @@ img.left, figure.left {float: right; margin: 0 0 2em 2em;}
     color: #fff;
     display: inline-block;
     height: 30px;
-    padding: 5px 0.5em;
+    padding: 5px 1.5em;
     text-decoration: none;
   }
   #banner nav a:hover, #banner nav a:active,
