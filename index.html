@@ -6,6 +6,7 @@
  
 <link rel="stylesheet" href="css/main.css" type="text/css" />
 <link rel="stylesheet" href="css/modal.css" type="text/css" />
+<link rel="import" href="modal.html">
 <link rel="import" href="progress.html">
 
 <!--
@@ -90,39 +91,11 @@
 </section><!-- /#content -->
 
 <!-- The Modal -->
-<div id="myModal" class="modal">
-
-  <!-- Modal content -->
-  <div class="modal-content">
-    <article class="hentry"> 
-    <div class="modal-header">
-      <span class="close">x</span>
-      <a>modal header</a>
-    </div>
-    </article>
-    <article class="hentry"> 
-    <div class="modal-body">
-      <p>Some text in the Modal Body</p>
-      <p>Some other text...</p>
-      <p>Some text in the Modal Body</p>
-      <p>Some other text...</p>
-      <p>Some text in the Modal Body</p>
-      <p>Some other text...</p>
-      <p>Some text in the Modal Body</p>
-      <p>Some other text...</p>
-      <p>Some text in the Modal Body</p>
-      <p>Some other text...</p>
-    </div>
-    </article>
-    <article class="hentry"> 
-    <div class="modal-footer">
-      <h3>modal footer</h3>
-    </div>
-    </article>
-  </div>
-
-</div>
-<script src="src/modal.js" type="text/javascript"></script>
+<script>
+    var link = document.querySelector('link[rel="import"]');
+    var elem = link.import.querySelector('.modal');
+    document.body.appendChild(elem.cloneNode(true));
+ </script>
 
 <div id="progress-container"></div>
 <script>
