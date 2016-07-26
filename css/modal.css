@@ -19,7 +19,7 @@
     position: relative;
     background-color: #fefefe;
     margin: auto;
-    padding: 0;
+    padding: 10px;
     border: 1px solid #888;
     width: 90%;
     font-family: 'Trebuchet MS', Trebuchet, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -43,7 +43,7 @@
 
 /* The Close Button */
 .close {
-    color: grey;
+    color: #aaaaaa;
     float: right;
     font-size: 64px;
     font-weight: bold;
@@ -88,9 +88,9 @@
 }
 
 .button1a {width: 75%; padding: 30px 20px; background-color: #A8A8A8; /* Grey */ }
-.button1b {width: 18%; padding: 30px 20px; background-color: #4CAF50; /* Green */ }
+.button1b {width: 18%; padding: 30px 20px; background-color: #2f6a31; /* Green */ }
 .button2a {width: 75%; padding: 30px 20px; background-color: #A8A8A8; /* Grey */ }
-.button2b {width: 18%; padding: 30px 20px; background-color: #e6e600; /* yellow */ }
+.button2b {width: 18%; padding: 30px 20px; background-color: #efd42a; /* yellow */ }
 .button3a {width: 75%; padding: 30px 20px; background-color: #A8A8A8; /* Grey */ }
 .button3b {width: 18%; padding: 30px 20px; background-color: orange; /* orage */ }
 .button4a {width: 75%; padding: 30px 20px; background-color: #A8A8A8; /* Grey */ }
